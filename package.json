@@ -5,8 +5,10 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-lib": "vue-cli-service build --target lib --name button"
   },
+  "main": "./dist/button.common.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
